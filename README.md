@@ -8,12 +8,12 @@
 - AJAX veri değişimi ve sunuş katmanının birbirlerinin fonksiyonlarına karışmadan aynı anda çalışmalarına olanak sağlar.
 
 ### Günlük hayatımızda gördüğümüz örnekler:
-- Oylama ve puanlama sistemi 
-> Online olarak aldığımız bir ürün için verdiğimiz puan, online bir oynama formu doldurmamız gibi işlemlerde AJAX kullanılır. Puanlama veya oylama tuşuna tıkladığımızda, web site hesaplamayı güncelleyecek ancak bütün sayfa değişmemiş kalacaktır.
-- Sohbet odaları
-> Bazı web siteleri ana sayfalarında müşteri desteği memurlarından biriyle konuşabileceğimiz yerleşik bir sohbet odası kullanır. Eğer aynı anda sayfada dolaşmak istiyorsak AJAX, her mesaj attığımızda ve aldığımızda sayfamızı yenilemeyecektir.
-- Twitter’ın gündem bildirimi
-> Belirli gündem konuları hakkında her yeni tweet atıldığında, Twitter ana sayfayı etkilemeden yeni rakamları güncelleyecektir.
+#### Oylama ve puanlama sistemi 
+- Online olarak aldığımız bir ürün için verdiğimiz puan, online bir oynama formu doldurmamız gibi işlemlerde AJAX kullanılır. Puanlama veya oylama tuşuna tıkladığımızda, web site hesaplamayı güncelleyecek ancak bütün sayfa değişmemiş kalacaktır.
+#### Sohbet odaları
+- Bazı web siteleri ana sayfalarında müşteri desteği memurlarından biriyle konuşabileceğimiz yerleşik bir sohbet odası kullanır. Eğer aynı anda sayfada dolaşmak istiyorsak AJAX, her mesaj attığımızda ve aldığımızda sayfamızı yenilemeyecektir.
+#### Twitter’ın gündem bildirimi
+- Belirli gündem konuları hakkında her yeni tweet atıldığında, Twitter ana sayfayı etkilemeden yeni rakamları güncelleyecektir.
 
 ## AJAX nasıl çalışır?
 1. Bir web sayfasında bir olay meydana gelir (sayfa yüklenir, bir düğmeye tıklanır).

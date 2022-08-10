@@ -22,3 +22,13 @@
 > Birçok geliştirici **JSON** kullanmaya başladı. Çünkü şeklen JavaScript'e daha yakın.
 - Eşzamansız iletişim için **XMLHttpRequest objesi**.
 - Son olarak bütün bu teknolojileri bir araya getirmek için **JavaScript**.
+![2](https://github.com/asuf29/ajax/blob/main/img/ajax.png)
+
+## Klasik model ile AJAX modelini karşılaştıralım.
+
+| Klasik model | AJAX modeli |
+| ------------ | ----------- |
+| 1.Web tarayıcıdan sunucuya bir HTTP isteği yollanır. | 1. Tarayıcı bir JavaScript çağrısı yaratır, bu çağrı da daha sonra XMLHttpRequest’i aktif eder. |
+| 2.Sunucu isteği alır ve sonradan veriye erişir. | 2.Arkaplanda, web tarayıcısı sunucu için bir HTTP isteği yaratır. |
+| 3.Sunucu istenilen veriyi web tarayıcısına yollar. | 3. Sunucu veriyi alır, erişir ve web tarayıcısına geri yollar. |
+| 4. Web tarayıcısı veriyi alır ve veriyi göstermek için sayfayı yeniler. | 4. Web tarayıcısı istenilen veriyi alır, veri ise sayfada direkt olarak gözükür. Sayfayı yenilemek gerekmez. |

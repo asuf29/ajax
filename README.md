@@ -16,12 +16,13 @@
 > Belirli gündem konuları hakkında her yeni tweet atıldığında, Twitter ana sayfayı etkilemeden yeni rakamları güncelleyecektir.
 
 ## AJAX nasıl çalışır?
-- Ana dili için HTML/XHTML ve sunum için CSS.
-- Dinamik görüntü verisi ve etkileşimi için *Document Object Model (DOM)*.
-- Veri değişimi için XML ve manipülasyonu için ise XSLT. 
-> Birçok geliştirici **JSON** kullanmaya başladı. Çünkü şeklen JavaScript'e daha yakın.
-- Eşzamansız iletişim için **XMLHttpRequest objesi**.
-- Son olarak bütün bu teknolojileri bir araya getirmek için **JavaScript**.
+1. Bir web sayfasında bir olay meydana gelir (sayfa yüklenir, bir düğmeye tıklanır).
+2. JavaScript tarafından bir XMLHttpRequest nesnesi oluşturulur.
+3. XMLHttpRequest nesnesi bir web sunucusuna istek gönderir.
+4. Sunucu isteği işler.
+5. Sunucu, web sayfasına bir yanıt gönderir.
+6. Yanıt JavaScript tarafından okunur.
+7. Uygun eylem (sayfa güncelleme gibi) JavaScript tarafından gerçekleştirilir.
 ![2](https://github.com/asuf29/ajax/blob/main/img/ajax.png)
 
 ## Klasik model ile AJAX modelini karşılaştıralım.
